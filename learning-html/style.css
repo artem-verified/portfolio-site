@@ -46,7 +46,7 @@ button:hover {
 }
 
 .skills {
-  background: #e3e3e3;
+  background: #e3e3e398;
   padding: 10px 15px;
   border-radius: 6px;
   font-weight: bold;
@@ -88,4 +88,18 @@ button:hover {
 .dark {
   background: #1e1e1e;
   color: white;
+}
+
+.dark .container {
+  background: #2a2a2a;
+}
+
+.dark h2 .dark p {
+  color: #e0e0e0;
+}
+
+body {
+  transition:
+    background 0.3s,
+    color 0.3s;
 }
